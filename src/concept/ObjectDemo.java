@@ -1,7 +1,9 @@
+package concept;
+
 class Something {
 
     public Something(){
-        String knowsSomething = "Knows Something";
+        String knowsSomething = "Knows concept.Something";
         System.out.println(knowsSomething);
     }
 

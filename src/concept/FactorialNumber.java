@@ -1,3 +1,5 @@
+package concept;
+
 public class FactorialNumber {
     public static void main(String[] args) {
         int  num=10,fact = 1;

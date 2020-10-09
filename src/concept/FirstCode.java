@@ -1,3 +1,5 @@
+package concept;
+
 public class FirstCode {
     public static void main(String[] args) {
         int num = 5;
@@ -7,7 +9,7 @@ public class FirstCode {
         //Error:(6, 14) java: variable num is already defined in method main(java.lang.String[])
         System.out.println(num);
         char c ='A';
-        c = 66;//ASCII value of B is 66
+        c = 66;//ASCII value of concept.B is 66
         int b =66;
         char b1 = (char) b;
         //int b2 = int(b1);

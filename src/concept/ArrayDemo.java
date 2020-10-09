@@ -1,3 +1,5 @@
+package concept;
+
 public class ArrayDemo {
     public static void main(String[] args) {
 //       // int nums[] = new int[4];
@@ -12,7 +14,7 @@ public class ArrayDemo {
 //        //System.out.println(nums[4]);
 //        /**
 //         * Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 4
-//         * 	at ArrayDemo.main(ArrayDemo.java:9)
+//         * 	at concept.ArrayDemo.main(concept.ArrayDemo.java:9)
 //         */
 //        for (int num:nums
 //             ) {

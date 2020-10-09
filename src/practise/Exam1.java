@@ -1,4 +1,4 @@
-package exam1;
+package practise;
 
 public class Exam1 {
 
@@ -25,7 +25,7 @@ public class Exam1 {
         if (originalNUmber == sum)
             System.out.println("ArmStrongNumer");
         else
-            System.out.println("!ArmStrongNumber");
+            System.out.println("!concept.ArmStrongNumber");
     }
 
     public static void primeNumber(int number) {
@@ -37,7 +37,7 @@ public class Exam1 {
             }
         }
         if (isPrime)
-            System.out.println("PrimeNumber");
+            System.out.println("concept.PrimeNumber");
         else System.out.println("!primeNumber");
     }
 
