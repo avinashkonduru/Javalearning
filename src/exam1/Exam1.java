@@ -29,11 +29,11 @@ public class Exam1 {
     }
 
     public static void primeNumber(int number) {
-        int num = number;
         boolean isPrime = true;
-        for (int i = 2; i < num; i++) {
-            if (num % i == 0) {
+        for (int i = 2; i < number; i++) {
+            if (number % i == 0) {
                 isPrime = false;
+                break;
             }
         }
         if (isPrime)
@@ -42,8 +42,8 @@ public class Exam1 {
     }
 
     public static void factorialNumber(int number) {
-        int num = number, fact = 1;
-        for (int i = 1; i <= num; i++) {
+        int  fact = 1;
+        for (int i = 1; i <= number; i++) {
             fact = fact * i;
         }
         System.out.println(fact);
@@ -61,8 +61,7 @@ public class Exam1 {
     }
 
     public static void palindromeNumber(int number) {
-        int num = number;
-        if (num == reverseNumber(num))
+        if (number == reverseNumber(number))
             System.out.println("PalindromeNumber");
         else
             System.out.println("!PalindromeNumber");
@@ -70,7 +69,8 @@ public class Exam1 {
     }
 
     public static void sortArrayNumAsc() {
-        int a[] = {5, 8, 3, 5, 6, 9, 11, 10}, temp = 0;
+        int[] a = {5, 8, 3, 5, 6, 9, 11, 10};
+        int temp;
         System.out.println("OriginalArray");
         for (int i : a
         ) {
@@ -138,5 +138,11 @@ public class Exam1 {
         tableOfANumber(9);
         fibonacciSeries(5);
         sumOfDigits(3,4,5,67,12,34,56);
+        avinashKonduru();
+
+    }
+
+    private static void avinashKonduru() {
+        System.out.println("AvinashReddyKonduru");
     }
 }
