@@ -16,6 +16,28 @@ package concept;
  * i don't want to instantiate object of class
  * instead of using two methods,we can use only one method which accepts all the subclass methods
  *
+ *
+ * An abstract class can be instantiated either by a concrete subclass or by defining all the abstract method along with the new statement.
+ * abstract class DemoAbstractClass {
+ * 	abstract void display();
+ * }
+ *
+ * public class JavaApplication {
+ * 	public static void main(String[] args)
+ *        {
+ * 		DemoAbstractClass AC = new DemoAbstractClass() {
+ * 			void display()
+ *            {
+ * 				System.out.println("Hi.");
+ *            }
+ *        };
+ * 		AC.display();
+ * 		System.out.println("How are you?");
+ *    }
+ * }
+ * Output
+ * Hi.
+ * How are you?
  */
 abstract class Human {
     public abstract void eat();
@@ -28,7 +50,7 @@ abstract class Man extends Human {
 //    }
 }
 
-class Avinash extends  Man{
+class Avinash extends  Man{//concrete class
    public void eat(){}
 }
 
