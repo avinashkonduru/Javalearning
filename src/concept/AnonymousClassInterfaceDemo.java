@@ -1,5 +1,8 @@
 package concept;
 
+/**
+ *
+ */
 interface Abc{
     void show();
 }

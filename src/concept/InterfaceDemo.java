@@ -26,6 +26,28 @@ package concept;
  * facebook will give API;
  * Api will have certain interfaces, classes, we need to implement in order to connect to facebook Api
  *
+ *Types of interface
+ * 1. Normal
+ * 2. Single abstract method
+ * 3. Market interface - no method
+ * till 1.7 we had only three interfaces
+ * in java 8 ,
+ * Single abstract method interface is called as functional interface- we can use lambda expression -
+ * java adapted lambda expression from scala language-- java 8 we have all features in scala
+ * functional interface will have one abstract method
+ * @FunctionaInterface
+ *
+ * Lambda expression  is nly possible with Single abstract method/functional interface
+ *
+ * Default method interface
+ * 1.7
+ * Abstract class-> Define and declare methods
+ * Interface -> declare methods
+ *
+ *we are not allowed to modify interfaces
+ * 1.8 can define methods in interface-. default key word
+ * then why do we have abstract class
+ * no much difference
  *
  *
  */
