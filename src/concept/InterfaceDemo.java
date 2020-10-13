@@ -50,6 +50,8 @@ package concept;
  * then why do we have abstract class
  * no much difference
  *
+ * Default Method In interface
+ * in java 1.8 we can define method in interface with default key word
  *
  */
 interface Abcd{
