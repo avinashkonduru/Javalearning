@@ -35,7 +35,7 @@ public class SortingArrayOfNUmbers {
 
 
     public static void main(String[] args) {
-        sortArrNumAsc();
+       // sortArrNumAsc();
         sortArrNumDesc();
 
     }

@@ -51,8 +51,6 @@ package concept;
  *
  *
  */
-
-
 interface Abcd{
     void show();
 }

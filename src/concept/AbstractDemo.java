@@ -11,7 +11,7 @@ package concept;
  * if I dont want to define method, i want to declare method; then we declare it as abstract method
  * we cannot declare a method without abstract key word
  * if there there is abstract method in class, the class should be abstract
- * its not mandatory to have an abstract method in abstract method
+ * its not mandatory to have an abstract method in abstract class
  * Why we need Abstract  Class?
  * i don't want to instantiate object of class
  * instead of using two methods,we can use only one method which accepts all the subclass methods
