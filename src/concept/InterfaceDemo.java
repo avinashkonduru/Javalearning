@@ -3,7 +3,8 @@ package concept;
 /**
  * Interface will implement multiple Inheritance
  * we use Implements to extend Interface
- * All the methods in Interface should be abstract, we cannot define any method, All the methods in abstract class need not be Abstract
+ * All the methods in Interface should be abstract, we cannot define any method,
+ * All the methods in abstract class need not be Abstract
  * We cannot create object of interface
  * we can only create reference of interface
  * We can implement multiple interfaces
@@ -35,9 +36,9 @@ package concept;
  * Single abstract method interface is called as functional interface- we can use lambda expression -
  * java adapted lambda expression from scala language-- java 8 we have all features in scala
  * functional interface will have one abstract method
- * @FunctionaInterface
+ * @FunctionalInterface
  *
- * Lambda expression  is nly possible with Single abstract method/functional interface
+ * Lambda expression  is only possible with Single abstract method/functional interface
  *
  * Default method interface
  * 1.7
