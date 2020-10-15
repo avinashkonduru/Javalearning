@@ -11,7 +11,7 @@ public class FirstCode {
         char c ='A';
         c = 66;//ASCII value of concept.B is 66
         int b =66;
-        char b1 = (char) b;
+        char b1 =  (char) b;
         //int b2 = int(b1);
        // System.out.println(b2);
         System.out.println(b1);

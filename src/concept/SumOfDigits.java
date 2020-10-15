@@ -20,7 +20,6 @@ public class SumOfDigits {
         for (int i =0;i<n;i++){
             a[i]=scanner.nextInt();
             sum = sum+a[i];
-
         }
         System.out.println("Sum: "+sum);
     }

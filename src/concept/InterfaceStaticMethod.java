@@ -13,12 +13,19 @@ package concept;
 
 interface Demooo{
     void abc();
-    static void show(){
+    static  void show(){
         System.out.println("Static Show");
     }
 }
 public class InterfaceStaticMethod {
     public static void main(String[] args) {
         Demooo.show();
+        Demooo demooo = new Demooo(){
+           public void  abc()
+        {
+               System.out.println("Abc");
+            }
+        };
+        demooo.abc();
     }
 }

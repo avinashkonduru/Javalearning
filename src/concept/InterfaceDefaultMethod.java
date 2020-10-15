@@ -21,10 +21,10 @@ class DemoImp implements Demo{
         System.out.println("ABC");
     }
 
-    @Override
-    public void show() {
-        System.out.println("Show");
-    }
+//    @Override
+//    public void show() {
+//        System.out.println("Show");
+//    }
 }
 
 
